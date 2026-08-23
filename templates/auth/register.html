@@ -195,7 +195,7 @@
 
             <div class="terms-group">
                 <input type="checkbox" id="terms" name="terms" required>
-                <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                <label for="terms">I agree to the <a href="{{ url_for('auth.policy') }}">Terms of Service</a> and <a href="{{ url_for('auth.policy') }}">Privacy Policy</a></label>
             </div>
 
             <button type="submit" class="btn-submit">Create Account</button>
